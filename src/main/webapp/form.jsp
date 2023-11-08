@@ -82,6 +82,27 @@
                 <option value="Philadelphos">열송학사</option>
             </select>
         </div>
+        <%-- 기숙사 거주 여부 --%>
+        <div class="col-md-6">
+            <label for="dormResidenceStatus" class="form-label">기숙사 거주 여부:</label>
+            <select id="dormResidenceStatus" class="form-control" name="residenceStatus">
+                <option value="yes">네</option>
+                <option value="no">아니오</option>
+            </select>
+        </div>
+        <%-- 팀교수님 --%>
+        <div class="col-md-6">
+            <label for="inputTeamProfessor" class="form-label">팀 교수님</label>
+            <input type="text" class="form-control" id="inputTeamProfessor" name="teamProfessor">
+        </div>
+        <%-- 고향 --%>
+        <div class="col-md-6">
+            <label for="inputHomeTown" class="form-label">고향</label>
+            <input type="text" class="form-control" id="inputHomeTown" name="hometown">
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">등록</button>
+        </div>
     </form>
 </div>
 </body>
